@@ -1,22 +1,22 @@
 //
-//  OnboardingViewController.m
+//  ImageUserViewController.m
 //  SpotPic
 //
 //  Created by Mike Stuck on 10/17/16.
 //  Copyright © 2016 Mike Stuck. All rights reserved.
 //
 
-#import "OnboardingViewController.h"
+#import "ImageUserViewController.h"
 
-@interface OnboardingViewController ()
+@interface ImageUserViewController ()
 
 @end
 
-@implementation OnboardingViewController
+@implementation ImageUserViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"HERE");
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

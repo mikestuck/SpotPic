@@ -1,22 +1,22 @@
 //
-//  OnboardingViewController.m
+//  NotificationsViewController.m
 //  SpotPic
 //
 //  Created by Mike Stuck on 10/17/16.
 //  Copyright © 2016 Mike Stuck. All rights reserved.
 //
 
-#import "OnboardingViewController.h"
+#import "NotificationsViewController.h"
 
-@interface OnboardingViewController ()
+@interface NotificationsViewController ()
 
 @end
 
-@implementation OnboardingViewController
+@implementation NotificationsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"HERE");
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

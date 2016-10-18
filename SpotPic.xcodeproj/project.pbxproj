@@ -21,6 +21,14 @@
 		3F06944A1DB5A52F00969B6D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694491DB5A52F00969B6D /* OnboardingViewController.m */; };
 		3F06944D1DB5A57300969B6D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F06944C1DB5A57300969B6D /* SearchViewController.m */; };
 		3F0694511DB5A5D700969B6D /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694501DB5A5D700969B6D /* ImageDetailViewController.m */; };
+		3F0694541DB5A7D700969B6D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694531DB5A7D700969B6D /* User.m */; };
+		3F0694581DB5A8AC00969B6D /* UserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694571DB5A8AC00969B6D /* UserUtils.m */; };
+		3F0694611DB5A8E000969B6D /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694601DB5A8E000969B6D /* ColorUtils.m */; };
+		3F0694641DB5A8FD00969B6D /* APIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694631DB5A8FD00969B6D /* APIUtils.m */; };
+		3F0694671DB5A90C00969B6D /* LocationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694661DB5A90C00969B6D /* LocationUtils.m */; };
+		3F06946B1DB5AC1500969B6D /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F06946A1DB5AC1500969B6D /* NotificationsViewController.m */; };
+		3F06946D1DB5AF3900969B6D /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F06946C1DB5AF3900969B6D /* Detail.storyboard */; };
+		3F0694701DB5AFA200969B6D /* ImageUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F06946F1DB5AFA200969B6D /* ImageUserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +74,22 @@
 		3F06944C1DB5A57300969B6D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Controllers/Search/SearchViewController.m; sourceTree = "<group>"; };
 		3F06944F1DB5A5D700969B6D /* ImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageDetailViewController.h; path = Controllers/Image/ImageDetailViewController.h; sourceTree = "<group>"; };
 		3F0694501DB5A5D700969B6D /* ImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageDetailViewController.m; path = Controllers/Image/ImageDetailViewController.m; sourceTree = "<group>"; };
+		3F0694521DB5A7D700969B6D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Models/User.h; sourceTree = "<group>"; };
+		3F0694531DB5A7D700969B6D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
+		3F0694561DB5A8AC00969B6D /* UserUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserUtils.h; path = Utilities/UserUtils.h; sourceTree = "<group>"; };
+		3F0694571DB5A8AC00969B6D /* UserUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserUtils.m; path = Utilities/UserUtils.m; sourceTree = "<group>"; };
+		3F06945F1DB5A8E000969B6D /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorUtils.h; path = Utilities/ColorUtils.h; sourceTree = "<group>"; };
+		3F0694601DB5A8E000969B6D /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorUtils.m; path = Utilities/ColorUtils.m; sourceTree = "<group>"; };
+		3F0694621DB5A8FD00969B6D /* APIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIUtils.h; path = Utilities/APIUtils.h; sourceTree = "<group>"; };
+		3F0694631DB5A8FD00969B6D /* APIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIUtils.m; path = Utilities/APIUtils.m; sourceTree = "<group>"; };
+		3F0694651DB5A90C00969B6D /* LocationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationUtils.h; path = Utilities/LocationUtils.h; sourceTree = "<group>"; };
+		3F0694661DB5A90C00969B6D /* LocationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationUtils.m; path = Utilities/LocationUtils.m; sourceTree = "<group>"; };
+		3F0694681DB5A96200969B6D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "Supporting Files/Constants.h"; sourceTree = "<group>"; };
+		3F0694691DB5AC1500969B6D /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = Controllers/Onboarding/NotificationsViewController.h; sourceTree = "<group>"; };
+		3F06946A1DB5AC1500969B6D /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = Controllers/Onboarding/NotificationsViewController.m; sourceTree = "<group>"; };
+		3F06946C1DB5AF3900969B6D /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Detail.storyboard; path = Views/Detail.storyboard; sourceTree = "<group>"; };
+		3F06946E1DB5AFA200969B6D /* ImageUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageUserViewController.h; path = Controllers/Image/ImageUserViewController.h; sourceTree = "<group>"; };
+		3F06946F1DB5AFA200969B6D /* ImageUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageUserViewController.m; path = Controllers/Image/ImageUserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +145,7 @@
 				3F06942E1DB5A2D300969B6D /* Models */,
 				3F06942F1DB5A2DB00969B6D /* Views */,
 				3F0694301DB5A2E000969B6D /* Controllers */,
+				3F0694551DB5A89100969B6D /* Utilities */,
 				3F0693FB1DB5A24100969B6D /* Supporting Files */,
 			);
 			path = SpotPic;
@@ -132,6 +157,7 @@
 				3F0694311DB5A30D00969B6D /* Assets.xcassets */,
 				3F0694321DB5A30D00969B6D /* Info.plist */,
 				3F0694331DB5A30D00969B6D /* main.m */,
+				3F0694681DB5A96200969B6D /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +187,8 @@
 				3F0694411DB5A49800969B6D /* Location.m */,
 				3F0694431DB5A4B300969B6D /* Picture.h */,
 				3F0694441DB5A4B300969B6D /* Picture.m */,
+				3F0694521DB5A7D700969B6D /* User.h */,
+				3F0694531DB5A7D700969B6D /* User.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -171,6 +199,7 @@
 				3F0694371DB5A31E00969B6D /* LaunchScreen.storyboard */,
 				3F06943B1DB5A3F700969B6D /* Onboarding.storyboard */,
 				3F06943D1DB5A42B00969B6D /* Search.storyboard */,
+				3F06946C1DB5AF3900969B6D /* Detail.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -190,6 +219,8 @@
 			children = (
 				3F0694481DB5A52F00969B6D /* OnboardingViewController.h */,
 				3F0694491DB5A52F00969B6D /* OnboardingViewController.m */,
+				3F0694691DB5AC1500969B6D /* NotificationsViewController.h */,
+				3F06946A1DB5AC1500969B6D /* NotificationsViewController.m */,
 			);
 			name = Onboarding;
 			sourceTree = "<group>";
@@ -208,8 +239,25 @@
 			children = (
 				3F06944F1DB5A5D700969B6D /* ImageDetailViewController.h */,
 				3F0694501DB5A5D700969B6D /* ImageDetailViewController.m */,
+				3F06946E1DB5AFA200969B6D /* ImageUserViewController.h */,
+				3F06946F1DB5AFA200969B6D /* ImageUserViewController.m */,
 			);
 			name = Image;
+			sourceTree = "<group>";
+		};
+		3F0694551DB5A89100969B6D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3F0694561DB5A8AC00969B6D /* UserUtils.h */,
+				3F0694571DB5A8AC00969B6D /* UserUtils.m */,
+				3F06945F1DB5A8E000969B6D /* ColorUtils.h */,
+				3F0694601DB5A8E000969B6D /* ColorUtils.m */,
+				3F0694621DB5A8FD00969B6D /* APIUtils.h */,
+				3F0694631DB5A8FD00969B6D /* APIUtils.m */,
+				3F0694651DB5A90C00969B6D /* LocationUtils.h */,
+				3F0694661DB5A90C00969B6D /* LocationUtils.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +374,7 @@
 				3F0694341DB5A30D00969B6D /* Assets.xcassets in Resources */,
 				3F06943C1DB5A3F700969B6D /* Onboarding.storyboard in Resources */,
 				3F06943E1DB5A42B00969B6D /* Search.storyboard in Resources */,
+				3F06946D1DB5AF3900969B6D /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +399,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0694541DB5A7D700969B6D /* User.m in Sources */,
+				3F0694641DB5A8FD00969B6D /* APIUtils.m in Sources */,
 				3F0694451DB5A4B300969B6D /* Picture.m in Sources */,
+				3F0694701DB5AFA200969B6D /* ImageUserViewController.m in Sources */,
+				3F0694611DB5A8E000969B6D /* ColorUtils.m in Sources */,
+				3F0694671DB5A90C00969B6D /* LocationUtils.m in Sources */,
+				3F0694581DB5A8AC00969B6D /* UserUtils.m in Sources */,
 				3F0694361DB5A30D00969B6D /* main.m in Sources */,
+				3F06946B1DB5AC1500969B6D /* NotificationsViewController.m in Sources */,
 				3F0694421DB5A49800969B6D /* Location.m in Sources */,
 				3F06944A1DB5A52F00969B6D /* OnboardingViewController.m in Sources */,
 				3F06944D1DB5A57300969B6D /* SearchViewController.m in Sources */,
@@ -488,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4X4RG77KE5;
 				INFOPLIST_FILE = "$(SRCROOT)/SpotPic/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mike-Stuck.SpotPic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4X4RG77KE5;
 				INFOPLIST_FILE = "$(SRCROOT)/SpotPic/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mike-Stuck.SpotPic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
