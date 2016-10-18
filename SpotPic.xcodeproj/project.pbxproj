@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0693FD1DB5A24100969B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0693FC1DB5A24100969B6D /* main.m */; };
 		3F0694001DB5A24100969B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0693FF1DB5A24100969B6D /* AppDelegate.m */; };
-		3F0694031DB5A24100969B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694021DB5A24100969B6D /* ViewController.m */; };
-		3F0694061DB5A24100969B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0694041DB5A24100969B6D /* Main.storyboard */; };
-		3F0694081DB5A24100969B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0694071DB5A24100969B6D /* Assets.xcassets */; };
-		3F06940B1DB5A24100969B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0694091DB5A24100969B6D /* LaunchScreen.storyboard */; };
 		3F0694161DB5A24100969B6D /* SpotPicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694151DB5A24100969B6D /* SpotPicTests.m */; };
 		3F0694211DB5A24100969B6D /* SpotPicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694201DB5A24100969B6D /* SpotPicUITests.m */; };
+		3F0694341DB5A30D00969B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0694311DB5A30D00969B6D /* Assets.xcassets */; };
+		3F0694351DB5A30D00969B6D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0694321DB5A30D00969B6D /* Info.plist */; };
+		3F0694361DB5A30D00969B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694331DB5A30D00969B6D /* main.m */; };
+		3F0694391DB5A31E00969B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0694371DB5A31E00969B6D /* LaunchScreen.storyboard */; };
+		3F06943C1DB5A3F700969B6D /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F06943B1DB5A3F700969B6D /* Onboarding.storyboard */; };
+		3F06943E1DB5A42B00969B6D /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F06943D1DB5A42B00969B6D /* Search.storyboard */; };
+		3F0694421DB5A49800969B6D /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694411DB5A49800969B6D /* Location.m */; };
+		3F0694451DB5A4B300969B6D /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694441DB5A4B300969B6D /* Picture.m */; };
+		3F06944A1DB5A52F00969B6D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694491DB5A52F00969B6D /* OnboardingViewController.m */; };
+		3F06944D1DB5A57300969B6D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F06944C1DB5A57300969B6D /* SearchViewController.m */; };
+		3F0694511DB5A5D700969B6D /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0694501DB5A5D700969B6D /* ImageDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +42,30 @@
 
 /* Begin PBXFileReference section */
 		3F0693F81DB5A24100969B6D /* SpotPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F0693FC1DB5A24100969B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F0693FE1DB5A24100969B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F0693FF1DB5A24100969B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F0694011DB5A24100969B6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F0694021DB5A24100969B6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3F0694051DB5A24100969B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F0694071DB5A24100969B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F06940A1DB5A24100969B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F06940C1DB5A24100969B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F0694111DB5A24100969B6D /* SpotPicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotPicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0694151DB5A24100969B6D /* SpotPicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotPicTests.m; sourceTree = "<group>"; };
 		3F0694171DB5A24100969B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F06941C1DB5A24100969B6D /* SpotPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0694201DB5A24100969B6D /* SpotPicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotPicUITests.m; sourceTree = "<group>"; };
 		3F0694221DB5A24100969B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0694311DB5A30D00969B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Supporting Files/Assets.xcassets"; sourceTree = "<group>"; };
+		3F0694321DB5A30D00969B6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		3F0694331DB5A30D00969B6D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		3F0694371DB5A31E00969B6D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Views/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F06943B1DB5A3F700969B6D /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Onboarding.storyboard; path = Views/Onboarding.storyboard; sourceTree = "<group>"; };
+		3F06943D1DB5A42B00969B6D /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Search.storyboard; path = Views/Search.storyboard; sourceTree = "<group>"; };
+		3F0694401DB5A49800969B6D /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = Models/Location.h; sourceTree = "<group>"; };
+		3F0694411DB5A49800969B6D /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = Models/Location.m; sourceTree = "<group>"; };
+		3F0694431DB5A4B300969B6D /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Picture.h; path = Models/Picture.h; sourceTree = "<group>"; };
+		3F0694441DB5A4B300969B6D /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Picture.m; path = Models/Picture.m; sourceTree = "<group>"; };
+		3F0694481DB5A52F00969B6D /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnboardingViewController.h; path = Controllers/Onboarding/OnboardingViewController.h; sourceTree = "<group>"; };
+		3F0694491DB5A52F00969B6D /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnboardingViewController.m; path = Controllers/Onboarding/OnboardingViewController.m; sourceTree = "<group>"; };
+		3F06944B1DB5A57300969B6D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Controllers/Search/SearchViewController.h; sourceTree = "<group>"; };
+		3F06944C1DB5A57300969B6D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Controllers/Search/SearchViewController.m; sourceTree = "<group>"; };
+		3F06944F1DB5A5D700969B6D /* ImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageDetailViewController.h; path = Controllers/Image/ImageDetailViewController.h; sourceTree = "<group>"; };
+		3F0694501DB5A5D700969B6D /* ImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageDetailViewController.m; path = Controllers/Image/ImageDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +118,9 @@
 			children = (
 				3F0693FE1DB5A24100969B6D /* AppDelegate.h */,
 				3F0693FF1DB5A24100969B6D /* AppDelegate.m */,
-				3F0694011DB5A24100969B6D /* ViewController.h */,
-				3F0694021DB5A24100969B6D /* ViewController.m */,
-				3F0694041DB5A24100969B6D /* Main.storyboard */,
-				3F0694071DB5A24100969B6D /* Assets.xcassets */,
-				3F0694091DB5A24100969B6D /* LaunchScreen.storyboard */,
-				3F06940C1DB5A24100969B6D /* Info.plist */,
+				3F06942E1DB5A2D300969B6D /* Models */,
+				3F06942F1DB5A2DB00969B6D /* Views */,
+				3F0694301DB5A2E000969B6D /* Controllers */,
 				3F0693FB1DB5A24100969B6D /* Supporting Files */,
 			);
 			path = SpotPic;
@@ -117,7 +129,9 @@
 		3F0693FB1DB5A24100969B6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F0693FC1DB5A24100969B6D /* main.m */,
+				3F0694311DB5A30D00969B6D /* Assets.xcassets */,
+				3F0694321DB5A30D00969B6D /* Info.plist */,
+				3F0694331DB5A30D00969B6D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +152,64 @@
 				3F0694221DB5A24100969B6D /* Info.plist */,
 			);
 			path = SpotPicUITests;
+			sourceTree = "<group>";
+		};
+		3F06942E1DB5A2D300969B6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F0694401DB5A49800969B6D /* Location.h */,
+				3F0694411DB5A49800969B6D /* Location.m */,
+				3F0694431DB5A4B300969B6D /* Picture.h */,
+				3F0694441DB5A4B300969B6D /* Picture.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3F06942F1DB5A2DB00969B6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F0694371DB5A31E00969B6D /* LaunchScreen.storyboard */,
+				3F06943B1DB5A3F700969B6D /* Onboarding.storyboard */,
+				3F06943D1DB5A42B00969B6D /* Search.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3F0694301DB5A2E000969B6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F06944E1DB5A57E00969B6D /* Image */,
+				3F0694471DB5A50F00969B6D /* Search */,
+				3F0694461DB5A50700969B6D /* Onboarding */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3F0694461DB5A50700969B6D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3F0694481DB5A52F00969B6D /* OnboardingViewController.h */,
+				3F0694491DB5A52F00969B6D /* OnboardingViewController.m */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		3F0694471DB5A50F00969B6D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3F06944B1DB5A57300969B6D /* SearchViewController.h */,
+				3F06944C1DB5A57300969B6D /* SearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		3F06944E1DB5A57E00969B6D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3F06944F1DB5A5D700969B6D /* ImageDetailViewController.h */,
+				3F0694501DB5A5D700969B6D /* ImageDetailViewController.m */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +321,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F06940B1DB5A24100969B6D /* LaunchScreen.storyboard in Resources */,
-				3F0694081DB5A24100969B6D /* Assets.xcassets in Resources */,
-				3F0694061DB5A24100969B6D /* Main.storyboard in Resources */,
+				3F0694391DB5A31E00969B6D /* LaunchScreen.storyboard in Resources */,
+				3F0694351DB5A30D00969B6D /* Info.plist in Resources */,
+				3F0694341DB5A30D00969B6D /* Assets.xcassets in Resources */,
+				3F06943C1DB5A3F700969B6D /* Onboarding.storyboard in Resources */,
+				3F06943E1DB5A42B00969B6D /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0694031DB5A24100969B6D /* ViewController.m in Sources */,
+				3F0694451DB5A4B300969B6D /* Picture.m in Sources */,
+				3F0694361DB5A30D00969B6D /* main.m in Sources */,
+				3F0694421DB5A49800969B6D /* Location.m in Sources */,
+				3F06944A1DB5A52F00969B6D /* OnboardingViewController.m in Sources */,
+				3F06944D1DB5A57300969B6D /* SearchViewController.m in Sources */,
+				3F0694511DB5A5D700969B6D /* ImageDetailViewController.m in Sources */,
 				3F0694001DB5A24100969B6D /* AppDelegate.m in Sources */,
-				3F0693FD1DB5A24100969B6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +390,6 @@
 			targetProxy = 3F06941D1DB5A24100969B6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3F0694041DB5A24100969B6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F0694051DB5A24100969B6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3F0694091DB5A24100969B6D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F06940A1DB5A24100969B6D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3F0694231DB5A24100969B6D /* Debug */ = {
@@ -428,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4X4RG77KE5;
-				INFOPLIST_FILE = SpotPic/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpotPic/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mike-Stuck.SpotPic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4X4RG77KE5;
-				INFOPLIST_FILE = SpotPic/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpotPic/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mike-Stuck.SpotPic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
